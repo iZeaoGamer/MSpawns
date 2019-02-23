@@ -26,9 +26,9 @@ commands:
   aliases: [setlobby]
   description: Set hub.
   permission: mspawns.sethub
- hub:
-  aliases: [lobby]
-  description: Teleport player to hub.
+ mainspawn:
+  aliases: [zpes]
+  description: Teleport player to main spawn.
   permission: mspawns.hub
  delspawn:
   description: Delete world spawn.
