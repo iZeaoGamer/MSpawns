@@ -70,7 +70,7 @@ class MSpawns extends PluginBase {
         $this->cfg = $this->getConfig()->getAll();
         $this->getCommand("delhub")->setExecutor(new Commands\DelHub($this));
         $this->getCommand("sethub")->setExecutor(new Commands\SetHub($this));
-        $this->getCommand("lobby")->setExecutor(new Commands\Hub($this));
+        $this->getCommand("mainspawn")->setExecutor(new Commands\Hub($this));
         $this->getCommand("delspawn")->setExecutor(new Commands\DelSpawn($this));
         $this->getCommand("setspawn")->setExecutor(new Commands\SetSpawn($this));
         $this->getCommand("spawn")->setExecutor(new Commands\Spawn($this));
